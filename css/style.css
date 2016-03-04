@@ -822,8 +822,3 @@ body.noscript .slide-menu {
   position: static;
   right: auto;
 }
-
-.video {
-  display: block;
-  border: 1px solid;
-}
