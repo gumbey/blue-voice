@@ -443,6 +443,11 @@ sub {
   padding-right: 0.7500rem;
 }
 
+.gutter-third, .gutter-1-3 {
+  padding-left: 0.500rem;
+  padding-right: 0.500rem;
+}
+
 .gutter-double, .gutter-2 {
   padding-left: 3.0000rem;
   padding-right: 3.0000rem;
@@ -715,55 +720,10 @@ h1 {
   border-bottom: 0px;
 }
 
-.banner img {
+.img {
   width: 100%;
-}
-
-.banner h2 {
-  background-color: #046d8b;
-  color: #fff;
-  padding: .25em;
-}
-
-.banner a {
-  background-color: #046d8b;
-  color: #fff;
-  padding: .25em;
-}
-
-.banner .article {
-  color: #fff;
-  position: absolute;
-  top: 12em;
-}
-
-.article-2 {
-  color: #fff;
-  position: absolute;
-  margin-top: -10em;
-  padding: 2em;
-  width: 400px;
-  float: left;
-  line-height: .5em;
-}
-
-.article-2 h4 {
-  background-color: #046d8b;
-  padding: 1em;
-}
-
-.news {
-  width: 100%;
-  float: left;
-  overflow: hidden;
-}
-
-.story {
-  float: left;
-}
-
-.story-left {
-  float: left;
+  padding: 0;
+  margin: 0;
 }
 
 footer {
