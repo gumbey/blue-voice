@@ -1,0 +1,21 @@
+// Colours
+
+$black: #000;
+$darkblue: #2d456c;
+$blue: #046d8b;
+// $yellow: #D8BB6F;
+// $yellow: #ECBE13;
+$yellow: #f1d159;
+$teal: #2FB8AC;
+$white: #fff;
+
+// Font Families
+
+@import url(https://fonts.googleapis.com/css?family=Oswald:400,300,700);
+@import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,400italic,700);
+
+$oswald: 'Oswald', Helvetica, Arial, sans-serif;
+$droid: 'Droid Serif', Times New Roman, Georgia, serif;
+
+$header: $oswald;
+$body: $droid;
