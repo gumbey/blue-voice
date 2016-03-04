@@ -3,11 +3,13 @@
   <head>
     <meta charset="utf-8">
     <title>BlueVoice{% if page.titleAfter %} · {{page.titleAfter}}{% endif %}</title>
+  <!-- ----- LINKS ----- -->
     <link href="{{site.baseurl}}/css/style.css" rel="stylesheet">
     <link href="https://file.myfontastic.com/QGxgiFpq4RvHbdEHEnqzi5/icons.css" rel="stylesheet">
     <link rel="author" href="humans.txt">
     <link href='https://fonts.googleapis.com/css?family=Oswald:700,400,300' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic' rel='stylesheet' type='text/css'>
+  <!-- ----- META ----- -->
     <meta name="description" content="{{page.meta}}">
     <meta name="handheldfriendly" content="true">
     <meta name="mobileoptimized" content="240">
@@ -22,13 +24,13 @@
   <body class="noscript">
     <div class="site-wrapper " data-state="slide-close">
       <div class="sliding-canvas ">
-        <header class="header cf">
-          <a href="{{site.baseurl}}"><img class="logo-header" src="{{site.baseurl}}/images/logo.svg">
-          <h1>BlueVoice</h1></a>
-          <a class="toggle-btn icon-bars" href="#main-menu"><span>Menu</span></a>
-          <nav class="navigation slide-menu">
+        <header class="header cf grid">
+          <a href="{{site.baseurl}}"><img class="logo-header unit unit-xs-1-2 unit-l-1-3" src="{{site.baseurl}}/images/logo.svg">
+          <h1 class="unit unit-xs-1-2 unit-l-1-3">BlueVoice</h1></a>
+          <a class="toggle-btn icon-bars unit unit-xs-1-3" href="#main-menu"><span>Menu</span></a>
+          <nav class="navigation slide-menu unit-l-1-3">
             <a class="close-btn icon-times" href="#main-menu"><span>Close</span></a>
-            <ul>
+            <ul class="unit">
               <li><a href="{{site.baseurl}}/">Home</a></li>
               <li><a href="{{site.baseurl}}/about">About</a></li>
               <li><a href="http://www.cafepress.com/bluevoice">Shop</a></li>
@@ -52,8 +54,8 @@
                 <li><a href="#">Sharks</a></li>
                 <li><a href="#">Whales</a></li>
                 -->
-              <li><a class="donate" href="#">Donate</a></li>
             </ul>
+            <a class="donate unit unit-l-1-3" href="#">Donate</a>
           </nav>
         </header>
 
@@ -61,16 +63,22 @@
           {{content}}
         </main>
 
-        <footer class="">
-          <img class="logo-footer" src="{{site.baseurl}}/images/logo.svg">
-          <ul>
-              <li><a href="{{site.baseurl}}/">Home</a></li>
-              <li><a href="{{site.baseurl}}/about">About</a></li>
-              <li><a href="http://www.cafepress.com/bluevoice">Shop</a></li>
-              <li><a href="{{site.baseurl}}/news">News</a></li>
-              <li><a href="{{site.baseurl}}/film">Films</a></li>
-              <li><a class="donate" href="#">Donate</a></li>
+        <footer class="footer grid">
+          <a href="{{site.baseurl}}"><img class="logo-header unit unit-xs-1-2" src="{{site.baseurl}}/images/logo.svg">
+          <h2 class="unit unit-xs-1-2">BlueVoice</h2></a>
+          <p class="micro push-0 unit unit-s-1">10 Sunfish Drive</p>
+          <p class="micro push-0 unit unit-s-1">St. Augustine, FL 32080</p>
+          <p class="micro push-0 unit unit-s-1">contact@bluevoice.org</p>
+          <ul class="unit">
+              <li class="unit-xs-1 unit-s-1-2"><a href="{{site.baseurl}}/">Home</a></li>
+              <li class="unit-xs-1 unit-s-1-2"><a href="{{site.baseurl}}/about">About</a></li>
+              <li class="unit-xs-1 unit-s-1-2"><a href="http://www.cafepress.com/bluevoice">Shop</a></li>
+              <li class="unit-xs-1 unit-s-1-2"><a href="{{site.baseurl}}/news">News</a></li>
+              <li class="unit-xs-1 unit-s-1-2"><a href="{{site.baseurl}}/film">Films</a></li>
+              <li class="unit-xs-1 unit-s-1-2"><a class="donate" href="#">Donate</a></li>
           </ul>
+          <p class="milli push-0 unit unit-s-1">BlueVoice.org is a non-profit ©Copyright 2016</p>
+          <p class="milli push-0 unit unit-s-1">All rights reserved. Website design by Unicorn Studio</p>
         </footer>
       </div> <!-- /sliding-canvas -->
     </div> <!-- /site-wrapper -->
