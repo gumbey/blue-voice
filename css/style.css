@@ -900,6 +900,15 @@ body.noscript .slide-menu {
   right: auto;
 }
 
+.none {
+  display: none;
+}
+
+.hardy {
+  width: 100%;
+  text-align: center;
+}
+
 .img {
   width: 100%;
 }
