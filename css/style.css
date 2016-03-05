@@ -631,9 +631,7 @@ h1 {
   right: 1em;
 }
 .toggle-btn:hover {
-  color: #f1d159;
   background-color: #2FB8AC;
-  border-color: #f1d159;
 }
 
 .navigation {
@@ -882,11 +880,6 @@ h1 {
 body.noscript .slide-menu {
   position: static;
   right: auto;
-}
-
-.video {
-  display: block;
-  border: 1px solid;
 }
 
 /*# sourceMappingURL=style.css.map */
