@@ -16,10 +16,10 @@ function toggleNav(){
   }
 }
 
-var $gutterRight = $('#gutter');
-var $gutterLeft = $('.gutter-l-1-4');
+// var $gutterRight = $('#gutter');
+// var $gutterLeft = $('.gutter-l-1-4');
 
-$gutterRight.on('click', function() {
-      $gutterRight.removeClass('gutter-l-1-4');
-      $gutterRight.addClass('gutter-r-1-4');
-});
+// $gutterRight.on('click', function() {
+//       $gutterRight.removeClass('gutter-l-1-4');
+//       $gutterRight.addClass('gutter-r-1-4');
+// });

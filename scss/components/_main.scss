@@ -146,62 +146,6 @@ h1 {
   }
 }
 
-//BANNER
-
-.banner {
-  img {
-  width:100%;
-  }
-
-  h2{
-    background-color:$blue;
-    color:$white;
-    padding: .25em;
-
-  }
-  a{
-    background-color:$blue;
-    color:$white;
-    padding: .25em;
-  }
-  .article{
-    color:$white;
-    position:absolute;
-    top:12em;
-  }
-
-}
-
-.article-2{
-  color:$white;
-  position: absolute;
-  margin-top: -10em;
-  padding: 2em;
-  width:400px;
-  float:left;
-  line-height:.5em;
-  h4{
-    background-color:$blue;
-    padding: 1em;
-  }
-}
-
-
-.news{
-  width:100%;
-  float:left;
-  overflow:hidden;
-}
-.story{
-  float:left;
-
-  }
-
-.story-left{
-  float:left;
-}
-
-
 
 // FOOTER
 
