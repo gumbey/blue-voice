@@ -51,6 +51,7 @@ h1 {
 }
 
 // NAVIGATION
+
 .toggle-btn {
   position: absolute;
   right: 1em;
@@ -92,13 +93,13 @@ h1 {
   text-align: center;
 }
 
-.bold{
+.bold {
   font-weight: 700;
   text-decoration: none;
 }
 
-.h2{
-  font-family:$header;
+.h2 {
+  font-family: $header;
 }
 
 .toggle-btn,
@@ -142,63 +143,6 @@ h1 {
     }
   }
 }
-
-//BANNER
-
-.banner {
-  img {
-  width:100%;
-  }
-
-  h2{
-    background-color:$blue;
-    color: $white;
-    padding: .25em;
-
-  }
-  a{
-    background-color:$blue;
-    color:$white;
-    padding: .25em;
-  }
-  .article{
-    color:$white;
-    position:absolute;
-    top:12em;
-  }
-
-}
-
-.article-2{
-  color:$white;
-  position: absolute;
-  margin-top: -10em;
-  padding: 2em;
-  width:400px;
-  float:left;
-  line-height:.5em;
-  h4{
-    background-color:$blue;
-    padding: 1em;
-  }
-}
-
-
-.news{
-  width:100%;
-  float:left;
-  overflow:hidden;
-}
-.story{
-  float:left;
-
-  }
-
-.story-left{
-  float:left;
-}
-
-
 
 // FOOTER
 
@@ -303,25 +247,3 @@ h1 {
       // display:block;
     }
   }
-
-
-
-// HEAD
-
-.banner{
-  img{
-    height:450px;
-  }
-  .article{
-    position:absolute;
-    top:25em;
-    }
-
-  }
-
-//origin/gh-pages
-}
-body.noscript .slide-menu {
-  position: static;
-  right: auto;
-}
