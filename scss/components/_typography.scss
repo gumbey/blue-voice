@@ -174,30 +174,6 @@ sub {
   padding-right: 3.0000rem;
 }
 
-.gutter-left{
-  padding-left:1.5rem;
-}
-
-.gutter-left-half, .gutter-l-1-2{
-  padding-left:0.75rem;
-}
-
-.gutter-left-thrid, .gutter-l-1-3{
-  padding-left:0.5rem;
-}
-
-.gutter-right{
-  padding-right:1.5rem;
-}
-
-.gutter-right-half, .gutter-r-1-2{
-  padding-right:0.75rem;
-}
-
-.gutter-right-third, .gutter-r-1-3{
-  padding-right:0.5rem;
-}
-
 .center {
   text-align: center;
 }
@@ -286,6 +262,37 @@ footer h3 {
     line-height: 1.75;
   }
 
+  .gutter-left{
+  padding-left:1.5rem;
+}
+
+.gutter-left-half, gutter-l-1-2{
+  padding-left:0.75rem;
+}
+
+.gutter-left-thrid, .gutter-l-1-3{
+  padding-left:0.5rem;
+}
+
+.gutter-left-fourth, .gutter-l-1-4{
+  padding-left:0.25rem;
+}
+
+.gutter-right{
+  padding-right:1.5rem;
+}
+
+.gutter-right-half, .gutter-r-1-2{
+  padding-right:0.75rem;
+}
+
+.gutter-right-third, .gutter-r-1-3{
+  padding-right:0.5rem;
+}
+
+.gutter-right-fourth, .gutter-r-1-4{
+  padding-right:0.25rem;
+}
 }
 
 @media only screen and (min-width: 60em) {
@@ -295,6 +302,10 @@ footer h3 {
   html {
     font-size: 110%;
   }
+
+.gutter-right-fourth, .gutter-l-1-4{
+  padding-left:0.5rem;
+}
 }
 
 @media only screen and (min-width: 90em) {
