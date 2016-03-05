@@ -180,9 +180,9 @@ h1 {
 }
 
 .logo-footer {
-    width: 4em;
-    margin-left: -5em;
-    margin-top: 1em;
+  width: 4em;
+  margin-left: -5em;
+  margin-top: 1em;
 }
 
 // SLIDING NAVIGATION
@@ -222,8 +222,8 @@ h1 {
 
 @media only screen and (min-width: 60em){
 
-  .left-gutter{
-  padding-left:1.5rem;
+  .left-gutter {
+    padding-left:1.5rem;
   }
 
   .toggle-btn,
@@ -244,6 +244,6 @@ h1 {
     li{
       float:left;
       padding: .5em;
-      // display:block;
     }
   }
+}
