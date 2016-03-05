@@ -429,6 +429,14 @@ sub {
   padding: 0.7500rem;
 }
 
+.island-thrid, .island-1-3 {
+  padding: 0.5rem;
+}
+
+.island-fourth, .island-1-4 {
+  padding: 0.25rem;
+}
+
 .island-double, .island-2 {
   padding: 3.0000rem;
 }
@@ -885,6 +893,16 @@ body.noscript .slide-menu {
   background-color: #046d8b;
 }
 
+.other {
+  background-color: #046d8b;
+  color: #fff;
+  text-transform: uppercase;
+  font-family: "Oswald", Helvetica, Arial, sans-serif;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-weight: normal;
+}
+
 @media only screen and (min-width: 25em) {
   .info {
     padding: 5px 10px;
@@ -893,7 +911,7 @@ body.noscript .slide-menu {
   .info-wrap {
     position: absolute;
     bottom: 4rem;
-    background-color: #046d8b;
+    background-color: rgba(4, 109, 139, 0.87);
     text-align: left;
   }
   .read-wrap {
@@ -902,7 +920,7 @@ body.noscript .slide-menu {
     margin: 0 auto;
   }
   .read {
-    background-color: #046d8b;
+    background-color: rgba(4, 109, 139, 0.87);
   }
 }
 
@@ -913,7 +931,7 @@ body.noscript .slide-menu {
   .info-wrap-large {
     position: absolute;
     bottom: 10rem;
-    background-color: #046d8b;
+    background-color: rgba(4, 109, 139, 0.87);
     text-align: left;
   }
   .read-wrap-large {
@@ -924,12 +942,13 @@ body.noscript .slide-menu {
   .info-wrap {
     position: absolute;
     bottom: 3rem;
-    background-color: #046d8b;
+    background-color: rgba(4, 109, 139, 0.87);
     text-align: left;
   }
   .read-wrap {
     position: absolute;
     bottom: .5rem;
     margin: 0 auto;
+    background-color: rgba(4, 109, 139, 0.87);
   }
 }
