@@ -22,11 +22,13 @@ fieldset, pre, table {
 h1, .exa {
   font-size: 1.8020rem;
   line-height: 1.6648;
+  font-family: $header;
 }
 
 h2, .peta {
   font-size: 1.6018rem;
   line-height: 1.8729;
+  font-family: $header;
 }
 
 h3, .tera {
@@ -84,7 +86,8 @@ sub {
 }
 
 .bold {
-  font-weight: bold;
+  font-weight: 700;
+  text-decoration: none;
 }
 
 .italic {

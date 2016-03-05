@@ -338,11 +338,13 @@ fieldset, pre, table {
 h1, .exa {
   font-size: 1.8020rem;
   line-height: 1.6648;
+  font-family: "Oswald", Helvetica, Arial, sans-serif;
 }
 
 h2, .peta {
   font-size: 1.6018rem;
   line-height: 1.8729;
+  font-family: "Oswald", Helvetica, Arial, sans-serif;
 }
 
 h3, .tera {
@@ -400,7 +402,8 @@ sub {
 }
 
 .bold {
-  font-weight: bold;
+  font-weight: 700;
+  text-decoration: none;
 }
 
 .italic {
@@ -655,24 +658,6 @@ h1 {
 }
 .navigation ul a:hover {
   color: #f1d159;
-}
-
-.none {
-  display: none;
-}
-
-.hardy {
-  width: 100%;
-  text-align: center;
-}
-
-.bold {
-  font-weight: 700;
-  text-decoration: none;
-}
-
-.h2 {
-  font-family: "Oswald", Helvetica, Arial, sans-serif;
 }
 
 .toggle-btn,
