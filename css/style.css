@@ -888,18 +888,6 @@ body.noscript .slide-menu {
   position: absolute;
 }
 
-.vid-desc {
-  display: block;
-  position: relative;
-}
-
-.vid-name {
-  font-family: "Oswald", Helvetica, Arial, sans-serif;
-  color: #fff;
-  padding: .5em;
-  background-color: #2FB8AC;
-}
-
 .img {
   width: 100%;
 }
