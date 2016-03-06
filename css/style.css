@@ -710,19 +710,18 @@ h1 {
 
 .footer {
   background-color: #046d8b;
-  text-align: center;
   margin-bottom: 0;
-  clear: both;
 }
 .footer ul {
   list-style-type: none;
   display: inline-block;
   padding: .5em;
-  text-transform: uppercase;
+}
+.footer li {
+  text-decoration: underline;
 }
 .footer a {
   color: #fff;
-  text-decoration: underline;
   font-family: "Oswald", Helvetica, Arial, sans-serif;
 }
 .footer a:hover {
@@ -733,15 +732,13 @@ h1 {
 .footer h2 {
   color: #fff;
 }
-.footer img,
 .footer h2 {
-  margin-top: 1em;
   margin-left: 15px;
+  text-transform: uppercase;
 }
 
 .logo-footer {
-  width: 4em;
-  margin-left: -5em;
+  width: 25%;
   margin-top: 1em;
 }
 
