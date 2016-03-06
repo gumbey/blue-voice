@@ -987,3 +987,19 @@ body.noscript .slide-menu {
     background-color: rgba(4, 109, 139, 0.87);
   }
 }
+
+.pay-btn {
+  border-radius: 2px;
+  padding: 1em;
+  text-decoration: none;
+  color: #fff;
+  display: block;
+}
+
+.credit {
+  background-color: #f1d159;
+}
+
+.paypal {
+  background-color: #93a42a;
+}
