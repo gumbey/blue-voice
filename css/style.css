@@ -603,18 +603,21 @@ body.noscript .close-btn, body.noscript .toggle-btn {
   display: none;
 }
 
-header {
+.header {
   padding: 1em 1em;
   position: relative;
   background-color: #046d8b;
+}
+.header p {
+  color: #fff;
+  display: none;
 }
 
 .logo-header {
   width: 25%;
   display: inline-block;
   vertical-align: middle;
-  margin-top: 10%;
-  margin-left: 20px;
+  margin-top: 5%;
   margin-bottom: 5%;
   margin-right: 10px;
 }
@@ -638,6 +641,7 @@ h1 {
 
 .navigation {
   background-color: #046d8b;
+  display: inline-block;
 }
 
 .navigation ul {
@@ -666,7 +670,7 @@ h1 {
   text-decoration: none;
   height: 40px;
   width: 40px;
-  margin-top: 5%;
+  margin-top: 2%;
   font-size: 120%;
 }
 .toggle-btn:before,
@@ -688,22 +692,20 @@ h1 {
 .donate {
   background-color: #f1d159;
   border-radius: 5px;
-  padding: 15px 32px;
-  display: inline-block;
+  padding-top: 3px;
+  display: block;
+  margin: 0 auto;
   width: 100px;
-  height: 50px;
+  height: 30px;
   font-family: "Oswald", Helvetica, Arial, sans-serif;
   list-style-type: none;
   text-decoration: none;
   color: #fff;
   text-transform: uppercase;
-  text-align: right;
+  text-align: center;
 }
 .donate:hover {
   background-color: #2FB8AC;
-}
-.donate:hover ul a {
-  text-align: center;
   color: #fff;
   border-bottom: 0px;
 }
@@ -711,35 +713,54 @@ h1 {
 .footer {
   background-color: #046d8b;
   margin-bottom: 0;
+  padding: 1em 5%;
 }
 .footer ul {
   list-style-type: none;
   display: inline-block;
-  padding: .5em;
+  padding: 0em;
 }
 .footer li {
-  text-decoration: underline;
+  width: 35%;
+  margin-right: 10%;
+  border-bottom: 0.5px solid #fff;
+}
+.footer li:hover {
+  color: #f1d159;
+}
+.footer .footer-about,
+.footer .footer-news,
+.footer .donate {
+  margin-right: 0;
+}
+.footer .donate {
+  display: inline-block;
+  width: 100px;
+  border-bottom: 0;
+}
+.footer .donate:hover {
+  color: #fff;
 }
 .footer a {
   color: #fff;
+  text-decoration: none;
   font-family: "Oswald", Helvetica, Arial, sans-serif;
 }
 .footer a:hover {
   color: #f1d159;
 }
 
-.footer p,
 .footer h2 {
   color: #fff;
-}
-.footer h2 {
   margin-left: 15px;
   text-transform: uppercase;
+}
+.footer p {
+  color: #fff;
 }
 
 .logo-footer {
   width: 25%;
-  margin-top: 1em;
 }
 
 @media only screen and (max-width: 60em) {
@@ -779,17 +800,23 @@ h1 {
   }
 }
 @media only screen and (min-width: 60em) {
-  .left-gutter {
-    padding-left: 1.5rem;
-  }
-
+  /*.header {
+    p {
+      display: inline-block;
+    }
+  }*/
   .toggle-btn,
   .close-btn {
     display: none;
   }
 
+  .navigation {
+    margin-right: 0px;
+    margin-left: 40px;
+  }
   .navigation ul {
-    float: right;
+    margin-top: 60px;
+    margin-bottom: 0px;
   }
   .navigation ul li {
     display: inline-block;
@@ -798,9 +825,13 @@ h1 {
     border-bottom: none;
   }
 
+  .header .donate {
+    margin-top: 20px;
+    display: inline-block;
+  }
+
   footer li {
     float: left;
-    padding: .5em;
   }
 }
 
