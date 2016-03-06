@@ -884,6 +884,134 @@ body.noscript .slide-menu {
   height: 100%;
 }
 
+.vid-name {
+  color: #fff;
+  padding: .5em;
+  background-color: #2FB8AC;
+}
+
+.img {
+  width: 100%;
+}
+
+.head {
+  font-family: "Oswald", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+}
+
+.bucket {
+  position: relative;
+}
+
+.bucket-img {
+  padding-top: 56.25%;
+  background-size: cover;
+}
+
+.info-wrap {
+  background-color: #046d8b;
+}
+
+.info {
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: "Oswald", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+}
+
+.read {
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: "Oswald", Helvetica, Arial, sans-serif;
+  font-weight: light;
+}
+
+.read-wrap {
+  background-color: #046d8b;
+}
+
+.other {
+  background-color: #046d8b;
+  color: #fff;
+  text-transform: uppercase;
+  font-family: "Oswald", Helvetica, Arial, sans-serif;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-weight: normal;
+}
+
+.embed {
+  position: relative;
+}
+
+.embed-item {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  top: 0;
+}
+
+.embed-16by9 {
+  padding-top: 56.25%;
+}
+
+@media only screen and (min-width: 25em) {
+  .info {
+    padding: 5px 10px;
+    text-align: left;
+  }
+  .read {
+    padding: 5px 10px;
+    text-align: left;
+  }
+  .info-wrap {
+    position: absolute;
+    bottom: 4rem;
+    background-color: rgba(4, 109, 139, 0.87);
+    text-align: left;
+  }
+  .read-wrap {
+    position: absolute;
+    bottom: 1rem;
+    margin: 0 auto;
+  }
+  .read {
+    background-color: rgba(4, 109, 139, 0.87);
+  }
+}
+
+@media only screen and (min-width: 38em) {
+  .info-wrap {
+    bottom: .25rem;
+  }
+  .info-wrap-large {
+    position: absolute;
+    bottom: 10rem;
+    background-color: rgba(4, 109, 139, 0.87);
+    text-align: left;
+  }
+  .read-wrap-large {
+    position: absolute;
+    bottom: 1rem;
+    margin: 0 auto;
+  }
+  .info-wrap {
+    position: absolute;
+    bottom: 3rem;
+    background-color: rgba(4, 109, 139, 0.87);
+    text-align: left;
+  }
+  .read-wrap {
+    position: absolute;
+    bottom: .5rem;
+    margin: 0 auto;
+    background-color: rgba(4, 109, 139, 0.87);
+  }
+}
+
 .pay-btn {
   padding: 1em .5em;
   text-decoration: none;
