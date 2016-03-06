@@ -883,3 +883,68 @@ body.noscript .slide-menu {
   width: 100%;
   height: 100%;
 }
+
+.pay-btn {
+  padding: 1em .5em;
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  font-family: "Oswald", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  max-width: 400px;
+  margin: auto;
+}
+
+.credit {
+  background-color: #f1d159;
+  position: relative;
+}
+
+.paypal {
+  background-color: #009cde;
+  position: relative;
+}
+
+.s-icon {
+  display: none;
+}
+
+.oswald {
+  font-family: "Oswald", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+}
+
+.text-block {
+  max-width: 400px;
+  margin: 0 auto 2rem;
+}
+
+.master {
+  font-size: 2em;
+  color: #cc0000;
+}
+
+.amex {
+  font-size: 2em;
+  color: #002663;
+}
+
+.visa {
+  font-size: 2em;
+  color: #2C21A6;
+}
+
+.discover {
+  font-size: 2em;
+  color: #F58220;
+}
+
+@media only screen and (min-width: 26em) {
+  .s-icon {
+    left: 20px;
+    top: 17px;
+    font-size: 1.6em;
+    position: absolute;
+    display: inline-block;
+  }
+}
