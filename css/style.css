@@ -885,7 +885,9 @@ body.noscript .slide-menu {
 }
 
 .title {
-  position: absolute;
+  width: 15em;
+  margin-bottom: 0;
+  margin-top: 1em;
 }
 
 .img {
