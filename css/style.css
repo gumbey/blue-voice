@@ -870,6 +870,10 @@ body.noscript .slide-menu {
   width: 100%;
 }
 
+.top-space {
+  margin-top: 1.5rem;
+}
+
 .head {
   font-family: "Oswald", Helvetica, Arial, sans-serif;
   font-weight: normal;
