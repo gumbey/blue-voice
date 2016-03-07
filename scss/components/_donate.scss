@@ -1,0 +1,59 @@
+.pay-btn{
+	padding: 1em .5em;
+	text-decoration:none;
+	color: $white;
+	display: block;
+	font-family: $oswald;
+	font-weight: normal;
+	max-width: 400px;
+	margin: auto;
+}
+
+.credit{
+	background-color: $yellow;
+	position: relative;
+}
+
+.paypal{
+	background-color: $paypal;
+	position: relative;
+}
+
+.s-icon{
+display: none;
+}
+
+.oswald{
+	font-family: $oswald;
+	font-weight: normal;
+}
+
+.email{
+
+}
+
+.text-block{
+	max-width: 400px;
+	margin: 0 auto 2rem;
+}
+
+.master{ @include debit($mastercard)}
+.amex{ @include debit($amax)}
+.visa{ @include debit($visa)}
+.discover{ @include debit($discover)}
+
+@media only screen and (min-width: 26em) {
+
+.s-icon{
+	left: 20px;
+	top: 17px;
+	font-size: 1.6em;
+	position: absolute;
+	display: inline-block;
+}
+
+}
+
+@media only screen and (min-width: 38em) {
+
+}
