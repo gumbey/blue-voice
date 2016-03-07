@@ -725,13 +725,16 @@ h1 {
       -ms-transform: translateY(-10%);
           transform: translateY(-10%);
   transition: all 0.5s ease 0s, visibility 0s linear 0.5s;
-  /* the last value is the transition-delay for visibility */
+}
+.sub-menu li a {
+  border-bottom: 0;
 }
 
 .sub-menu-parent {
   position: relative;
 }
 .sub-menu-parent:hover .sub-menu {
+  position: relative;
   visibility: visible;
   opacity: 1;
   -webkit-transform: translateX(0%);
@@ -864,6 +867,10 @@ h1 {
   .header .donate {
     margin-top: 20px;
     display: inline-block;
+  }
+
+  .sub-menu-parent:hover .sub-menu {
+    position: absolute;
   }
 
   .footer {
