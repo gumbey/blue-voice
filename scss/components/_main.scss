@@ -25,6 +25,7 @@ body {
   }
 }
 
+// ---------------- HEADER ----------------
 .header {
   padding: 1em 1em;
   position: relative;
@@ -53,7 +54,7 @@ h1 {
   margin-top: 15%;
 }
 
-// NAVIGATION
+// ---------------- NAVIGATION ----------------
 
 .toggle-btn {
   position: absolute;
@@ -128,7 +129,7 @@ h1 {
   }
 }
 
-// FOOTER
+// ---------------- FOOTER ----------------
 
 .footer {
   background-color: $blue;
@@ -186,7 +187,7 @@ h1 {
   width: 25%;
 }
 
-// SLIDING NAVIGATION
+// ---------------- SLIDING NAVIGATION ----------------
 
 @media only screen and (max-width: 60em){
   .site-wrapper {
@@ -221,9 +222,21 @@ h1 {
   }
 } // /max-width media-query
 
+// ---------------- RESPONSIVE ----------------
+
+// ---------------- SMALL 400px ----------------
+
+@media only screen and (min-width: 25em) {
+
+}
+
+// ---------------- MEDIUM 608px ----------------
+
 @media only screen and (min-width: 38em) {
 
 }
+
+// ---------------- LARGE 960px ----------------
 
 @media only screen and (min-width: 60em){
 
