@@ -2,6 +2,10 @@
   width:100%
 }
 
+.top-space{
+  margin-top: 1.5rem;
+}
+
 .head{
   font-family: $oswald;
   font-weight: normal;
@@ -9,6 +13,10 @@
 
 .bucket{
   position: relative;;
+}
+
+.link{
+  text-decoration: none;
 }
 
 .bucket-img{
