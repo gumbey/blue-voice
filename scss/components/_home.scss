@@ -2,13 +2,22 @@
   width:100%
 }
 
+.top-space{
+  margin-top: 1.5rem;
+}
+
 .head{
   font-family: $oswald;
   font-weight: normal;
 }
 
 .bucket{
-  position: relative;;
+  position: relative;
+  z-index: 1;
+}
+
+.link{
+  text-decoration: none;
 }
 
 .bucket-img{
