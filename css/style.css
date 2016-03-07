@@ -967,6 +967,7 @@ h1 {
 
 .bucket {
   position: relative;
+  z-index: 1;
 }
 
 .link {
@@ -1144,5 +1145,76 @@ h1 {
     font-size: 1.6em;
     position: absolute;
     display: inline-block;
+  }
+}
+
+.banner {
+  position: relative;
+}
+
+.banner-img {
+  padding-top: 56.25%;
+  background-size: cover;
+}
+
+.banner-title-wrap {
+  width: 100%;
+  background-color: #046d8b;
+}
+
+.img-half {
+  width: 100%;
+}
+
+.banner-title {
+  margin: auto;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: "Oswald", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+}
+
+.article {
+  max-width: 920px;
+  margin: auto;
+}
+
+@media only screen and (min-width: 25em) {
+  .banner-title {
+    padding: 5px 10px;
+    text-align: left;
+  }
+  .banner-title-wrap {
+    position: absolute;
+    bottom: 4rem;
+    background-color: rgba(4, 109, 139, 0.87);
+    text-align: left;
+  }
+}
+
+@media only screen and (min-width: 38em) {
+  .banner-title-wrap {
+    bottom: .25rem;
+  }
+  .banner-title-wrap-large {
+    position: absolute;
+    bottom: 10rem;
+    background-color: rgba(4, 109, 139, 0.87);
+    text-align: left;
+  }
+  .banner-title-wrap {
+    position: absolute;
+    bottom: 3rem;
+    background-color: rgba(4, 109, 139, 0.87);
+    text-align: left;
+  }
+  .right {
+    width: 50%;
+    float: right;
+  }
+  .left {
+    width: 50%;
+    float: left;
   }
 }
