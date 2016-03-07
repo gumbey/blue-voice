@@ -757,6 +757,7 @@ h1 {
 }
 .footer p {
   color: #fff;
+  display: block;
 }
 
 .logo-footer {
