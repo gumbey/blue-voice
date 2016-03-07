@@ -705,7 +705,6 @@ h1 {
 .navigation ul li {
   list-style-type: none;
   color: #fff;
-  border-bottom: 1px solid #fff;
 }
 .navigation ul .sub-menu li {
   border-bottom: 0;
@@ -860,6 +859,19 @@ h1 {
 
 .footer .sub-menu li {
   width: 100%;
+}
+
+.footer-news ul {
+  width: 100%;
+  height: 250px;
+  margin-bottom: 0;
+  margin-top: 0.5em;
+}
+.footer-news li {
+  border-bottom: 0;
+}
+
+.footer .news-submenu li {
   border-bottom: 0;
 }
 
@@ -952,6 +964,10 @@ h1 {
   .footer .footer-news,
   .footer .donate {
     margin-right: 1%;
+  }
+  .footer .footer-news li {
+    display: block;
+    float: none;
   }
 }
 .none {
