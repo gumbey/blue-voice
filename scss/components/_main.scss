@@ -119,7 +119,7 @@ h1 {
   }
 }
 
-.donate {
+.donate > a{
   background-color: $yellow;
   border-radius: 5px;
   padding-top: 6px;
@@ -207,14 +207,22 @@ h1 {
     display: inline-block;
     padding: 0em;
   }
+
+  li.giga > a::after{
+      content: "";
+      display: block;
+      height: 1px;
+      border-bottom: 1px solid #fff; 
+  }
+
   li {
     width: 35%;
     margin-right: 10%;
-    border-bottom: 0.5px solid $white;
     &:hover {
       color: $yellow;
     }
   }
+
   .footer-about,
   .footer-news,
   .donate {
@@ -285,7 +293,7 @@ h1 {
 
 // ---------------- SLIDING NAVIGATION ----------------
 
-@media only screen and (max-width: 60em){
+@media only screen and (max-width: 59.9735em){
   .site-wrapper {
     position: relative;
     overflow: hidden;

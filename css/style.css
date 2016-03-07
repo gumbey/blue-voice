@@ -745,7 +745,7 @@ h1 {
   clip: rect(1px, 1px, 1px, 1px);
 }
 
-.donate {
+.donate > a {
   background-color: #ECBE13;
   border-radius: 5px;
   padding-top: 6px;
@@ -760,7 +760,7 @@ h1 {
   text-transform: uppercase;
   text-align: center;
 }
-.donate:hover {
+.donate > a:hover {
   background-color: #2FB8AC;
   color: #FFF;
   border-bottom: 0px;
@@ -831,10 +831,15 @@ h1 {
   display: inline-block;
   padding: 0em;
 }
+.footer li.giga > a::after {
+  content: "";
+  display: block;
+  height: 1px;
+  border-bottom: 1px solid #fff;
+}
 .footer li {
   width: 35%;
   margin-right: 10%;
-  border-bottom: 0.5px solid #FFF;
 }
 .footer li:hover {
   color: #ECBE13;
@@ -895,7 +900,7 @@ h1 {
   border-bottom: 0;
 }
 
-@media only screen and (max-width: 60em) {
+@media only screen and (max-width: 59.9735em) {
   .site-wrapper {
     position: relative;
     overflow: hidden;
