@@ -1,0 +1,71 @@
+.banner{
+  position: relative;;
+}
+
+.banner-img{
+  padding-top: 56.25%;
+  background-size: cover;
+}
+
+.banner-title-wrap{
+  width:100%;
+  background-color: $blue
+}
+
+.img-half{
+	width: 100%;
+}
+
+.banner-title{
+	margin: auto;
+  color:$white;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: $oswald;
+  font-weight: normal;
+}
+
+.article{
+	max-width: 920px;
+	margin: auto;
+}
+
+@media only screen and (min-width: 25em) {
+
+	.banner-title{
+		padding: 5px 10px;
+		text-align: left;
+  }
+
+	.banner-title-wrap{
+    position: absolute;
+    bottom: 4rem;
+    background-color: transparentize($blue, .13);
+    text-align: left;
+  }
+
+}
+
+@media only screen and (min-width: 38em) {
+
+  .banner-title-wrap{
+    bottom: .25rem;
+  }
+
+    .banner-title-wrap-large{
+    position: absolute;
+    bottom: 10rem;
+    background-color: transparentize($blue, .13);
+    text-align: left;
+  }
+
+    .banner-title-wrap{
+    position: absolute;
+    bottom: 3rem;
+    background-color: transparentize($blue, .13);
+    text-align: left;
+  }
+
+	.right { @include float($right)}
+	.left{ @include float($left)}
+}
