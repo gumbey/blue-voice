@@ -776,6 +776,7 @@ h1 {
   left: 0;
   width: 100%;
   padding-left: 0;
+  z-index: 2;
   -webkit-transform: translateZ(0);
           transform: translateZ(0);
   -webkit-transform: translateY(-10%);
