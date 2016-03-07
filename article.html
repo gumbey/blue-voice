@@ -7,8 +7,9 @@ layout: default
 <ul>
 	{% for article in site.posts %}
 	<li>
-		<a href=""></a>
-		<p></p>
+		<img src="{{article.image}}">
+		<a href="">{{article.title}}</a>
+		<p>{{article.meta}}</p>
 	</li>
 	{% endfor %}
 </ul>
