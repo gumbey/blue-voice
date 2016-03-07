@@ -748,8 +748,8 @@ h1 {
 .donate > a {
   background-color: #ECBE13;
   border-radius: 5px;
-  padding-top: 6px;
-  display: block;
+  padding-top: 8px;
+  display: inline-block;
   margin: 0 auto;
   width: 120px;
   height: 40px;
@@ -762,8 +762,11 @@ h1 {
 }
 .donate > a:hover {
   background-color: #2FB8AC;
-  color: #FFF;
   border-bottom: 0px;
+}
+
+.navigation .donate a:hover {
+  color: #FFF;
 }
 
 .sub-menu {
@@ -856,16 +859,6 @@ h1 {
 }
 .footer a:hover {
   color: #ECBE13;
-}
-.footer .donate,
-.footer .login {
-  display: inline-block;
-  width: 100px;
-  border-bottom: 0;
-}
-.footer .donate a:hover,
-.footer .login a:hover {
-  color: #FFF;
 }
 
 .footer h2 {

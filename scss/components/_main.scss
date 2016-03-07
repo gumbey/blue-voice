@@ -119,11 +119,11 @@ h1 {
   }
 }
 
-.donate > a{
+.donate > a {
   background-color: $yellow;
   border-radius: 5px;
-  padding-top: 6px;
-  display: block;
+  padding-top: 8px;
+  display: inline-block;
   margin: 0 auto;
   width: 120px;
   height: 40px;
@@ -135,8 +135,15 @@ h1 {
   text-align: center;
   &:hover {
     background-color: $teal;
-    color: $white;
     border-bottom: 0px;
+  }
+}
+
+.navigation .donate {
+  a {
+    &:hover {
+      color: $white;
+    }
   }
 }
 
@@ -164,7 +171,6 @@ h1 {
     transform: translateX(0%);
     transition-delay: 0s;
   }
-
 }
 
 .login {
@@ -207,14 +213,12 @@ h1 {
     display: inline-block;
     padding: 0em;
   }
-
   li.giga > a::after{
       content: "";
       display: block;
       height: 1px;
       border-bottom: 1px solid #fff; 
   }
-
   li {
     width: 35%;
     margin-right: 10%;
@@ -222,7 +226,6 @@ h1 {
       color: $yellow;
     }
   }
-
   .footer-about,
   .footer-news,
   .donate {
@@ -234,17 +237,6 @@ h1 {
     font-family: $header;
     &:hover {
       color: $yellow;
-    }
-  }
-  .donate,
-  .login {
-    display: inline-block;
-    width: 100px;
-    border-bottom: 0;
-    a {
-      &:hover {
-          color: $white;
-      }
     }
   }
 }
