@@ -653,7 +653,7 @@ h1 {
   color: #fff;
 }
 .navigation ul a {
-  padding: .5em 1em;
+  padding: 5px 10px;
   border-bottom: 1px solid #fff;
   text-decoration: none;
   display: block;
@@ -710,6 +710,36 @@ h1 {
   border-bottom: 0px;
 }
 
+.sub-menu {
+  background: #046d8b;
+  visibility: hidden;
+  opacity: 0;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  padding-left: 0;
+  -webkit-transform: translateZ(0);
+          transform: translateZ(0);
+  -webkit-transform: translateY(-10%);
+      -ms-transform: translateY(-10%);
+          transform: translateY(-10%);
+  transition: all 0.5s ease 0s, visibility 0s linear 0.5s;
+  /* the last value is the transition-delay for visibility */
+}
+
+.sub-menu-parent {
+  position: relative;
+}
+.sub-menu-parent:hover .sub-menu {
+  visibility: visible;
+  opacity: 1;
+  -webkit-transform: translateX(0%);
+      -ms-transform: translateX(0%);
+          transform: translateX(0%);
+  transition-delay: 0s;
+}
+
 .footer {
   background-color: #046d8b;
   margin-bottom: 0;
@@ -733,14 +763,6 @@ h1 {
 .footer .donate {
   margin-right: 0;
 }
-.footer .donate {
-  display: inline-block;
-  width: 100px;
-  border-bottom: 0;
-}
-.footer .donate:hover {
-  color: #fff;
-}
 .footer a {
   color: #fff;
   text-decoration: none;
@@ -748,6 +770,14 @@ h1 {
 }
 .footer a:hover {
   color: #f1d159;
+}
+.footer .donate {
+  display: inline-block;
+  width: 100px;
+  border-bottom: 0;
+}
+.footer .donate a:hover {
+  color: #fff;
 }
 
 .footer h2 {
@@ -819,6 +849,16 @@ h1 {
   }
   .navigation ul a {
     border-bottom: none;
+  }
+  .navigation .sub-menu {
+    margin-top: 0;
+    width: 275%;
+  }
+  .navigation .sub-menu li {
+    display: block;
+  }
+  .navigation .sub-menu li a {
+    text-align: left;
   }
 
   .header .donate {

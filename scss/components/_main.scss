@@ -26,6 +26,7 @@ body {
 }
 
 // ---------------- HEADER ----------------
+
 .header {
   padding: 1em 1em;
   position: relative;
@@ -77,7 +78,7 @@ h1 {
     color: $white;
   }
   a {
-    padding: .5em 1em;
+    padding: 5px 10px;
     border-bottom: 1px solid $white;
     text-decoration: none;
     display: block;
@@ -129,6 +130,30 @@ h1 {
   }
 }
 
+.sub-menu { 
+  background: $blue;
+  visibility: hidden;
+  opacity: 0;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  padding-left: 0;
+  transform: translateZ(0);
+  transform: translateY(-10%);
+  transition: all 0.5s ease 0s, visibility 0s linear 0.5s; /* the last value is the transition-delay for visibility */
+}
+
+.sub-menu-parent {
+  position: relative;
+  &:hover .sub-menu {
+    visibility: visible;
+    opacity: 1;
+    transform: translateX(0%);
+    transition-delay: 0s;
+  }
+}
+
 // ---------------- FOOTER ----------------
 
 .footer {
@@ -153,20 +178,22 @@ h1 {
   .donate {
     margin-right: 0;
   }
-  .donate {
-    display: inline-block;
-    width: 100px;
-    border-bottom: 0;
-    &:hover {
-      color: $white;
-    }
-  }
   a {
     color: $white;
     text-decoration: none;
     font-family: $header;
     &:hover {
       color: $yellow;
+    }
+  }
+  .donate {
+    display: inline-block;
+    width: 100px;
+    border-bottom: 0;
+    a {
+      &:hover {
+          color: $white;
+      }
     }
   }
 }
@@ -256,6 +283,16 @@ h1 {
       }
       a {
         border-bottom: none;
+      }
+    }
+    .sub-menu {
+      margin-top: 0;
+      width: 275%;
+      li {
+        display: block;
+        a {
+          text-align: left;
+        }
       }
     }
   }
