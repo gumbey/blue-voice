@@ -25,18 +25,14 @@ body {
   }
 }
 
-<<<<<<< HEAD
 // ---------------- HEADER ----------------
 
-.header {
-=======
 .largescreen{
   margin:auto;
   max-width:1200px;
 }
 
-header {
->>>>>>> gh-pages
+.header {
   padding: 1em 1em;
   position: relative;
   background-color: $blue;
@@ -139,13 +135,12 @@ h1 {
   text-align: center;
   &:hover {
     background-color: $teal;
-<<<<<<< HEAD
     color: $white;
     border-bottom: 0px;
   }
 }
 
-.sub-menu { 
+.sub-menu {
   background: $blue;
   visibility: hidden;
   opacity: 0;
@@ -174,20 +169,17 @@ h1 {
 // ---------------- FOOTER ----------------
 
 .footer {
-=======
     ul a {
       text-align: center;
       color: $white;
       border-bottom: 0px;
     }
   }
-}
 
 
 // FOOTER
 
-footer {
->>>>>>> gh-pages
+.footer {
   background-color: $blue;
   margin-bottom: 0;
   padding: 1em 5%;
