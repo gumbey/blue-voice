@@ -1,5 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Oswald:400,300,700);
-@import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,400italic,700);
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans:400,400italic,700,700italic);
 /**
  * For modern browsers
  * 1. The space content is one way to avoid an Opera bug when the
@@ -279,7 +279,7 @@
 }
 
 html {
-  font: normal 100%/1.5 "Droid Serif", Times New Roman, Georgia, serif;
+  font: normal 100%/1.5 "Noto Sans", Arial, Helvetica, sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6,
@@ -607,7 +607,7 @@ html {
 }
 
 body {
-  font-family: "Droid Serif", Times New Roman, Georgia, serif;
+  font-family: "Noto Sans", Arial, Helvetica, sans-serif;
   margin: 0;
   padding: 0;
 }
@@ -625,11 +625,11 @@ body.noscript .toggle-btn {
 .header {
   padding: 1em 1em;
   position: relative;
-  background-color: #046d8b;
+  background-color: #046D8B;
 }
 
 .header p {
-  color: #fff;
+  color: #FFF;
   display: none;
 }
 
@@ -643,7 +643,7 @@ body.noscript .toggle-btn {
 }
 
 h1 {
-  color: #fff;
+  color: #FFF;
   font-family: "Oswald", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   display: inline-block;
@@ -661,7 +661,7 @@ h1 {
 }
 
 .navigation {
-  background-color: #046d8b;
+  background-color: #046D8B;
   display: inline-block;
 }
 
@@ -672,8 +672,7 @@ h1 {
 
 .navigation ul li {
   list-style-type: none;
-  color: #fff;
-  border-bottom: 1px solid #fff;
+  color: #FFF;
 }
 
 .navigation ul .sub-menu li {
@@ -684,17 +683,17 @@ h1 {
   padding: 5px 10px;
   text-decoration: none;
   display: block;
-  color: #fff;
+  color: #FFF;
   text-align: center;
 }
 
 .navigation ul a:hover {
-  color: #f1d159;
+  color: #ECBE13;
 }
 
 .toggle-btn,
 .close-btn {
-  color: #fff;
+  color: #FFF;
   text-decoration: none;
   height: 40px;
   width: 40px;
@@ -719,30 +718,33 @@ h1 {
   clip: rect(1px, 1px, 1px, 1px);
 }
 
-.donate {
-  background-color: #f1d159;
+.donate > a {
+  background-color: #ECBE13;
   border-radius: 5px;
-  padding-top: 3px;
-  display: block;
+  padding-top: 8px;
+  display: inline-block;
   margin: 0 auto;
-  width: 100px;
-  height: 30px;
+  width: 120px;
+  height: 40px;
   font-family: "Oswald", Helvetica, Arial, sans-serif;
   list-style-type: none;
   text-decoration: none;
-  color: #fff;
+  color: #FFF;
   text-transform: uppercase;
   text-align: center;
 }
 
-.donate:hover {
+.donate > a:hover {
   background-color: #2FB8AC;
-  color: #fff;
   border-bottom: 0px;
 }
 
+.navigation .donate a:hover {
+  color: #FFF;
+}
+
 .sub-menu {
-  background: #046d8b;
+  background: #046D8B;
   visibility: hidden;
   opacity: 0;
   position: absolute;
@@ -750,6 +752,7 @@ h1 {
   left: 0;
   width: 100%;
   padding-left: 0;
+  z-index: 2;
   transform: translateZ(0);
   transform: translateY(-10%);
   transition: all 0.5s ease 0s, visibility 0s linear 0.5s;
@@ -767,14 +770,33 @@ h1 {
   transition-delay: 0s;
 }
 
+.login {
+  border-radius: 5px;
+  padding-top: 3px;
+  margin: 1em auto;
+  width: 100px;
+  height: 30px;
+  font-family: "Oswald", Helvetica, Arial, sans-serif;
+  list-style-type: none;
+  text-decoration: none;
+  color: #FFF;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.login:hover {
+  color: #ECBE13;
+  border-bottom: 0px;
+}
+
 .footer ul a {
   text-align: center;
-  color: #fff;
+  color: #FFF;
   border-bottom: 0px;
 }
 
 .footer {
-  background-color: #046d8b;
+  background-color: #046D8B;
   margin-bottom: 0;
   padding: 1em 5%;
 }
@@ -785,14 +807,20 @@ h1 {
   padding: 0em;
 }
 
+.footer li.giga > a::after {
+  content: "";
+  display: block;
+  height: 1px;
+  border-bottom: 1px solid #fff;
+}
+
 .footer li {
   width: 35%;
   margin-right: 10%;
-  border-bottom: 0.5px solid #fff;
 }
 
 .footer li:hover {
-  color: #f1d159;
+  color: #ECBE13;
 }
 
 .footer .footer-about,
@@ -802,33 +830,23 @@ h1 {
 }
 
 .footer a {
-  color: #fff;
+  color: #FFF;
   text-decoration: none;
   font-family: "Oswald", Helvetica, Arial, sans-serif;
 }
 
 .footer a:hover {
-  color: #f1d159;
-}
-
-.footer .donate {
-  display: inline-block;
-  width: 100px;
-  border-bottom: 0;
-}
-
-.footer .donate a:hover {
-  color: #fff;
+  color: #ECBE13;
 }
 
 .footer h2 {
-  color: #fff;
+  color: #FFF;
   margin-left: 15px;
   text-transform: uppercase;
 }
 
 .footer p {
-  color: #fff;
+  color: #FFF;
   display: block;
 }
 
@@ -838,10 +856,24 @@ h1 {
 
 .footer .sub-menu li {
   width: 100%;
+}
+
+.footer-news ul {
+  width: 100%;
+  height: 250px;
+  margin-bottom: 0;
+  margin-top: 0.5em;
+}
+
+.footer-news li {
   border-bottom: 0;
 }
 
-@media only screen and (max-width: 60em) {
+.footer .news-submenu li {
+  border-bottom: 0;
+}
+
+@media only screen and (max-width: 59.9735em) {
   .site-wrapper {
     position: relative;
     overflow: hidden;
@@ -880,7 +912,7 @@ h1 {
   }
   .navigation {
     margin-right: 0px;
-    margin-left: 40px;
+    margin-left: 70px;
   }
   .navigation ul {
     margin-top: 60px;
@@ -922,6 +954,10 @@ h1 {
   .footer .footer-news,
   .footer .donate {
     margin-right: 1%;
+  }
+  .footer .footer-news li {
+    display: block;
+    float: none;
   }
 }
 
@@ -980,11 +1016,11 @@ h1 {
 }
 
 .info-wrap {
-  background-color: #046d8b;
+  background-color: #046D8B;
 }
 
 .info {
-  color: #fff;
+  color: #FFF;
   text-transform: uppercase;
   text-align: center;
   font-family: "Oswald", Helvetica, Arial, sans-serif;
@@ -992,7 +1028,7 @@ h1 {
 }
 
 .read {
-  color: #fff;
+  color: #FFF;
   text-transform: uppercase;
   text-align: center;
   font-family: "Oswald", Helvetica, Arial, sans-serif;
@@ -1000,12 +1036,12 @@ h1 {
 }
 
 .read-wrap {
-  background-color: #046d8b;
+  background-color: #046D8B;
 }
 
 .other {
-  background-color: #046d8b;
-  color: #fff;
+  background-color: #046D8B;
+  color: #FFF;
   text-transform: uppercase;
   font-family: "Oswald", Helvetica, Arial, sans-serif;
   padding-top: 5px;
@@ -1086,7 +1122,7 @@ h1 {
 .pay-btn {
   padding: 1em .5em;
   text-decoration: none;
-  color: #fff;
+  color: #FFF;
   display: block;
   font-family: "Oswald", Helvetica, Arial, sans-serif;
   font-weight: normal;
@@ -1095,7 +1131,7 @@ h1 {
 }
 
 .credit {
-  background-color: #f1d159;
+  background-color: #ECBE13;
   position: relative;
 }
 
@@ -1159,7 +1195,7 @@ h1 {
 
 .banner-title-wrap {
   width: 100%;
-  background-color: #046d8b;
+  background-color: #046D8B;
 }
 
 .img-half {
@@ -1168,7 +1204,7 @@ h1 {
 
 .banner-title {
   margin: auto;
-  color: #fff;
+  color: #FFF;
   text-transform: uppercase;
   text-align: center;
   font-family: "Oswald", Helvetica, Arial, sans-serif;
