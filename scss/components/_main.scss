@@ -226,12 +226,6 @@ h1 {
 }
 
 @media only screen and (min-width: 60em){
-  
-  /*.header {
-    p {
-      display: inline-block;
-    }
-  }*/
 
   .toggle-btn,
   .close-btn {
@@ -260,9 +254,18 @@ h1 {
     }
   }
 
-  footer {
-    li{
-      float:left;
+  .footer {
+    padding-left: 2%;
+    padding-right: 2%;
+    li {
+      float: left;
+      width: 16%;
+      margin-right: 1%;
+    }
+    .footer-about,
+    .footer-news,
+    .donate {
+      margin-right: 1%;
     }
   }
 }

@@ -801,11 +801,6 @@ h1 {
   }
 }
 @media only screen and (min-width: 60em) {
-  /*.header {
-    p {
-      display: inline-block;
-    }
-  }*/
   .toggle-btn,
   .close-btn {
     display: none;
@@ -831,8 +826,19 @@ h1 {
     display: inline-block;
   }
 
-  footer li {
+  .footer {
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+  .footer li {
     float: left;
+    width: 16%;
+    margin-right: 1%;
+  }
+  .footer .footer-about,
+  .footer .footer-news,
+  .footer .donate {
+    margin-right: 1%;
   }
 }
 
