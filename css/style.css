@@ -973,6 +973,7 @@ h1 {
 
 .bucket {
   position: relative;
+  z-index: 1;
 }
 
 .link {
