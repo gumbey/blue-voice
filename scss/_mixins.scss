@@ -59,3 +59,8 @@
   font-size: 2em;
   color: $color;
 }
+
+@mixin float($way){
+    width: 50%;
+    float: $way;
+}
