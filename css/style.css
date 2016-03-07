@@ -651,10 +651,13 @@ h1 {
 .navigation ul li {
   list-style-type: none;
   color: #fff;
+  border-bottom: 1px solid #fff;
+}
+.navigation ul .sub-menu li {
+  border-bottom: 0;
 }
 .navigation ul a {
   padding: 5px 10px;
-  border-bottom: 1px solid #fff;
   text-decoration: none;
   display: block;
   color: #fff;
@@ -726,9 +729,6 @@ h1 {
           transform: translateY(-10%);
   transition: all 0.5s ease 0s, visibility 0s linear 0.5s;
 }
-.sub-menu li a {
-  border-bottom: 0;
-}
 
 .sub-menu-parent {
   position: relative;
@@ -795,6 +795,11 @@ h1 {
 
 .logo-footer {
   width: 25%;
+}
+
+.footer .sub-menu li {
+  width: 100%;
+  border-bottom: 0;
 }
 
 @media only screen and (max-width: 60em) {

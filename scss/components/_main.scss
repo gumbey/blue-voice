@@ -76,10 +76,15 @@ h1 {
   li {
     list-style-type: none;
     color: $white;
+    border-bottom: 1px solid $white;
+  }
+  .sub-menu {
+    li {
+      border-bottom: 0;
+    }
   }
   a {
     padding: 5px 10px;
-    border-bottom: 1px solid $white;
     text-decoration: none;
     display: block;
     color: $white;
@@ -142,9 +147,6 @@ h1 {
   transform: translateZ(0);
   transform: translateY(-10%);
   transition: all 0.5s ease 0s, visibility 0s linear 0.5s;
-  li a {
-    border-bottom: 0;
-  }
 }
 
 .sub-menu-parent {
@@ -217,6 +219,15 @@ h1 {
 
 .logo-footer {
   width: 25%;
+}
+
+.footer {
+  .sub-menu {
+    li {
+      width: 100%;
+      border-bottom: 0;
+    }
+  }
 }
 
 // ---------------- SLIDING NAVIGATION ----------------
