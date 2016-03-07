@@ -22,14 +22,13 @@ fieldset, pre, table {
 h1, .exa {
   font-size: 1.8020rem;
   line-height: 1.6648;
-  color: #6cc;
+  font-family: $header;
 }
 
 h2, .peta {
   font-size: 1.6018rem;
   line-height: 1.8729;
-  color: #00464f;
-
+  font-family: $header;
 }
 
 h3, .tera {
@@ -87,7 +86,8 @@ sub {
 }
 
 .bold {
-  font-weight: bold;
+  font-weight: 700;
+  text-decoration: none;
 }
 
 .italic {
@@ -192,20 +192,6 @@ sub {
 
 .intro {
   margin-top: 2%;
-}
-
-footer h3 {
-  font-size: 1.0000rem;
-  color: #00464f;
-}
-
-.copyright {
-  color: #00bcaf;
-}
-
-.ohnoes {
-  font-size: 2rem;
-  line-height: 1.2;
 }
 
 @media only screen and (min-width: 1em) {
