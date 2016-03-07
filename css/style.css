@@ -1052,3 +1052,8 @@ body.noscript .slide-menu {
     display: inline-block;
   }
 }
+
+.link {
+  text-decoration: none;
+  list-style: none;
+}

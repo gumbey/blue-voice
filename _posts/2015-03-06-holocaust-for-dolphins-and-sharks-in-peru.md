@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Holocause For Dolphins and Sharks in Peru
-image: {{site.baseurl}}/images/dolphinholocaust.jpg
+image: dolphinholocaust.jpg
 category: article
 ---
 

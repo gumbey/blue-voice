@@ -1,0 +1,18 @@
+---
+layout: default
+---
+
+<h1>Article</h1>
+<div class="grid gutter">
+	<div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1">
+		<ul class="link">
+			{% for article in site.posts %}
+			<li>
+				<img src="{{site.baseurl}}/images/{{article.image}}">
+				<a href="{{site.baseurl}}{{article.url}}">{{article.title}}</a>
+		<!-- 		<p>{{article.meta}}</p>
+		 -->	</li>
+			{% endfor %}
+		</ul>
+	</div>
+</div>
