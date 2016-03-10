@@ -1,11 +1,60 @@
 .submit{
-background-color: $teal;
+    background-color: $teal;
     border-radius: 5px;
     padding-top: 3px;
     display: block;
     margin: 0 auto;
     width: 100px;
     height: 30px;
+    font-family: "Oswald", Helvetica, Arial, sans-serif;
+    list-style-type: none;
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+
+.facebook-login{
+    background-color: $blue;
+    border-radius: 5px;
+    padding-top: 3px;
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    height: 50px;
+    font-family: "Oswald", Helvetica, Arial, sans-serif;
+    list-style-type: none;
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.google-login{
+    background-color: $blue;
+    border-radius: 5px;
+    padding-top: 3px;
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    height: 50px;
+    font-family: "Oswald", Helvetica, Arial, sans-serif;
+    list-style-type: none;
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.twitter-login{
+    background-color: $blue;
+    border-radius: 5px;
+    padding-top: 3px;
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    height: 50px;
     font-family: "Oswald", Helvetica, Arial, sans-serif;
     list-style-type: none;
     text-decoration: none;
