@@ -27,9 +27,9 @@ body {
 
 // ---------------- HEADER ----------------
 
-.largescreen{
-  margin:auto;
-  max-width:1200px;
+.largescreen {
+  margin: auto;
+  max-width: 1200px;
 }
 
 .header {
@@ -81,7 +81,7 @@ h1 {
   li {
     list-style-type: none;
     color: $white;
-    border-bottom: 1px solid $white;
+    //border-bottom: 1px solid $white;
   }
   .sub-menu {
     li {
@@ -119,15 +119,15 @@ h1 {
   }
 }
 
-.donate {
+.donate > a {
   background-color: $yellow;
   border-radius: 5px;
-  padding-top: 3px;
-  display: block;
+  padding-top: 8px;
+  display: inline-block;
   margin: 0 auto;
-  width: 100px;
-  height: 30px;
-  font-family: $oswald;
+  width: 120px;
+  height: 40px;
+  font-family: $header;
   list-style-type: none;
   text-decoration: none;
   color: $white;
@@ -135,8 +135,15 @@ h1 {
   text-align: center;
   &:hover {
     background-color: $teal;
-    color: $white;
     border-bottom: 0px;
+  }
+}
+
+.navigation .donate {
+  a {
+    &:hover {
+      color: $white;
+    }
   }
 }
 
@@ -149,6 +156,7 @@ h1 {
   left: 0;
   width: 100%;
   padding-left: 0;
+  z-index: 2;
   transform: translateZ(0);
   transform: translateY(-10%);
   transition: all 0.5s ease 0s, visibility 0s linear 0.5s;
@@ -163,7 +171,24 @@ h1 {
     transform: translateX(0%);
     transition-delay: 0s;
   }
+}
 
+.login {
+  border-radius: 5px;
+  padding-top: 3px;
+  margin: 1em auto;
+  width: 100px;
+  height: 30px;
+  font-family: $header;
+  list-style-type: none;
+  text-decoration: none;
+  color: $white;
+  text-transform: uppercase;
+  text-align: center;
+  &:hover {
+    color: $yellow;
+    border-bottom: 0px;
+  }
 }
 
 // ---------------- FOOTER ----------------
@@ -188,10 +213,15 @@ h1 {
     display: inline-block;
     padding: 0em;
   }
+  li.giga > a::after{
+      content: "";
+      display: block;
+      height: 1px;
+      border-bottom: 1px solid #fff; 
+  }
   li {
     width: 35%;
     margin-right: 10%;
-    border-bottom: 0.5px solid $white;
     &:hover {
       color: $yellow;
     }
@@ -207,16 +237,6 @@ h1 {
     font-family: $header;
     &:hover {
       color: $yellow;
-    }
-  }
-  .donate {
-    display: inline-block;
-    width: 100px;
-    border-bottom: 0;
-    a {
-      &:hover {
-          color: $white;
-      }
     }
   }
 }
@@ -241,14 +261,31 @@ h1 {
   .sub-menu {
     li {
       width: 100%;
-      border-bottom: 0;
     }
+  }
+}
+
+.footer-news {
+  ul {
+    width: 100%;
+    height: 250px;
+    margin-bottom: 0;
+    margin-top: 0.5em;
+  }
+  li {
+    border-bottom: 0;
+  }
+}
+
+.footer .news-submenu {
+  li {
+    border-bottom: 0;
   }
 }
 
 // ---------------- SLIDING NAVIGATION ----------------
 
-@media only screen and (max-width: 60em){
+@media only screen and (max-width: 59.9735em){
   .site-wrapper {
     position: relative;
     overflow: hidden;
@@ -306,7 +343,7 @@ h1 {
 
   .navigation {
     margin-right: 0px;
-    margin-left: 40px;
+    margin-left: 70px;
     ul {
       margin-top: 60px;
       margin-bottom: 0px;
@@ -354,6 +391,12 @@ h1 {
     .footer-news,
     .donate {
       margin-right: 1%;
+    }
+    .footer-news {
+      li {
+        display: block;
+        float: none;
+      }
     }
   }
 }
