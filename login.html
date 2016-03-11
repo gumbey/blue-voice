@@ -1,22 +1,21 @@
 ---
 layout: default
 ---
-<div class="grid pad-t-3">
+<div class="grid pad-t">
 	<div class="gutter center unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 pad-b-1-2">
-		<h2 class="push-0 uppercase">Login</h2>
 		<div class="pad-t-1-2">
 			<form>
-				<input class="giga" type="text"  placeholder="Username" required="required"/>
+			<div class="grid pad-t-3">
+				<div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 pad-b-2">
+					<input class="tera input-feild" type="text"  placeholder="Username" required="required"/>
+				</div>
+				<div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 pad-b-2">
+					<input class="tera input-feild push" type="password" placeholder="Password" required="required">
+				</div>
+				<div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 pad-b-2">
+					<button type="submit" class="uppercase tera" value="Login">Login</button>
+				</div>
+			</div>
 			</form>
 		</div>
 	</div>
-	<div class="gutter center unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 pad-t pad-b">
-			<form class="push">
-  			<input class="giga push" type="password" placeholder="Password" required="required">
-  			<button type="submit" class="submit center">Done</button>
-  			<button type="facebook" class="facebook-login center">Login with Facebook</button>
-  			<button type="submit" class="google-login center">Login with Google+</button>
-  			<button type="submit" class="twitter-login center">Login with Twitter</button>
-			</form>
-	</div>
-</div>

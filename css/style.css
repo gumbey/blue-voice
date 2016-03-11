@@ -1255,66 +1255,46 @@ h1 {
   }
 }
 
-.submit {
+button {
+  background-color: #ECBE13;
+  border: none;
+  color: white;
+  padding: 1em .5em;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  width: 100%;
+  max-width: 400px;
+  font-family: "Oswald", Helvetica, Arial, sans-serif;
+}
+
+button:hover {
   background-color: #2FB8AC;
-  border-radius: 5px;
-  padding-top: 3px;
-  display: block;
-  margin: 0 auto;
-  width: 100px;
-  height: 30px;
-  font-family: "Oswald", Helvetica, Arial, sans-serif;
-  list-style-type: none;
-  text-decoration: none;
-  color: #fff;
-  text-transform: uppercase;
+  border: none;
+  color: white;
+  padding: 1em .5em;
   text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  width: 100%;
+  max-width: 400px;
+  font-family: "Oswald", Helvetica, Arial, sans-serif;
 }
 
-.facebook-login {
-  background-color: #046D8B;
-  border-radius: 5px;
-  padding-top: 3px;
-  display: block;
-  margin: 0 auto;
-  width: 200px;
-  height: 50px;
-  font-family: "Oswald", Helvetica, Arial, sans-serif;
-  list-style-type: none;
-  text-decoration: none;
-  color: #fff;
-  text-transform: uppercase;
-  text-align: center;
+.input-feild {
+  padding: .75em .5em;
+  width: 100%;
+  max-width: 500px;
 }
 
-.google-login {
+.login-title {
   background-color: #046D8B;
-  border-radius: 5px;
-  padding-top: 3px;
-  display: block;
-  margin: 0 auto;
-  width: 200px;
-  height: 50px;
-  font-family: "Oswald", Helvetica, Arial, sans-serif;
-  list-style-type: none;
-  text-decoration: none;
-  color: #fff;
+  color: #FFF;
   text-transform: uppercase;
-  text-align: center;
-}
-
-.twitter-login {
-  background-color: #046D8B;
-  border-radius: 5px;
-  padding-top: 3px;
-  display: block;
-  margin: 0 auto;
-  width: 200px;
-  height: 50px;
   font-family: "Oswald", Helvetica, Arial, sans-serif;
-  list-style-type: none;
-  text-decoration: none;
-  color: #fff;
-  text-transform: uppercase;
-  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-weight: normal;
+  max-width: 400px;
+  margin: auto;
 }

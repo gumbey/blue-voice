@@ -1,67 +1,43 @@
-<<<<<<< Updated upstream
-.submit{
-    background-color: $teal;
-    border-radius: 5px;
-    padding-top: 3px;
-    display: block;
-    margin: 0 auto;
-    width: 100px;
-    height: 30px;
-    font-family: "Oswald", Helvetica, Arial, sans-serif;
-    list-style-type: none;
-    text-decoration: none;
-    color: #fff;
-    text-transform: uppercase;
-    text-align: center;
+button {
+  background-color: $yellow;
+  border: none;
+  color: white;
+  padding: 1em .5em;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  width: 100%;
+  max-width:400px;
+  font-family: $oswald;
 }
 
-
-.facebook-login{
-    background-color: $blue;
-    border-radius: 5px;
-    padding-top: 3px;
-    display: block;
-    margin: 0 auto;
-    width: 200px;
-    height: 50px;
-    font-family: "Oswald", Helvetica, Arial, sans-serif;
-    list-style-type: none;
-    text-decoration: none;
-    color: #fff;
-    text-transform: uppercase;
-    text-align: center;
+button:hover {
+  background-color: $teal;
+  border: none;
+  color: white;
+  padding: 1em .5em;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  width: 100%;
+  max-width:400px;
+  font-family: $oswald;
 }
 
-.google-login{
-    background-color: $blue;
-    border-radius: 5px;
-    padding-top: 3px;
-    display: block;
-    margin: 0 auto;
-    width: 200px;
-    height: 50px;
-    font-family: "Oswald", Helvetica, Arial, sans-serif;
-    list-style-type: none;
-    text-decoration: none;
-    color: #fff;
-    text-transform: uppercase;
-    text-align: center;
+.input-feild {
+ padding: .75em .5em;
+ width: 100%;
+ max-width:500px;
 }
 
-.twitter-login{
-    background-color: $blue;
-    border-radius: 5px;
-    padding-top: 3px;
-    display: block;
-    margin: 0 auto;
-    width: 200px;
-    height: 50px;
-    font-family: "Oswald", Helvetica, Arial, sans-serif;
-    list-style-type: none;
-    text-decoration: none;
-    color: #fff;
-    text-transform: uppercase;
-    text-align: center;
+.login-title{
+  background-color: $blue;
+  color: $white;
+  text-transform: uppercase;
+  font-family: $oswald;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-weight: normal;
+  max-width: 400px;
+  margin: auto;
 }
-=======
->>>>>>> Stashed changes
