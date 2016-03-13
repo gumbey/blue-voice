@@ -1254,3 +1254,47 @@ h1 {
     float: left;
   }
 }
+
+button {
+  background-color: #ECBE13;
+  border: none;
+  color: white;
+  padding: 1em .5em;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  width: 100%;
+  max-width: 400px;
+  font-family: "Oswald", Helvetica, Arial, sans-serif;
+}
+
+button:hover {
+  background-color: #2FB8AC;
+  border: none;
+  color: white;
+  padding: 1em .5em;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  width: 100%;
+  max-width: 400px;
+  font-family: "Oswald", Helvetica, Arial, sans-serif;
+}
+
+.input-feild {
+  padding: .75em .5em;
+  width: 100%;
+  max-width: 500px;
+}
+
+.login-title {
+  background-color: #046D8B;
+  color: #FFF;
+  text-transform: uppercase;
+  font-family: "Oswald", Helvetica, Arial, sans-serif;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-weight: normal;
+  max-width: 400px;
+  margin: auto;
+}
