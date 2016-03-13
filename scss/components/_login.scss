@@ -1,0 +1,43 @@
+button {
+  background-color: $yellow;
+  border: none;
+  color: white;
+  padding: 1em .5em;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  width: 100%;
+  max-width:400px;
+  font-family: $oswald;
+}
+
+button:hover {
+  background-color: $teal;
+  border: none;
+  color: white;
+  padding: 1em .5em;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  width: 100%;
+  max-width:400px;
+  font-family: $oswald;
+}
+
+.input-feild {
+ padding: .75em .5em;
+ width: 100%;
+ max-width:500px;
+}
+
+.login-title{
+  background-color: $blue;
+  color: $white;
+  text-transform: uppercase;
+  font-family: $oswald;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-weight: normal;
+  max-width: 400px;
+  margin: auto;
+}
